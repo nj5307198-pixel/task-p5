@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Monospace UI font to match the wireframe (nav, forms, buttons) */
+body {
+  @apply bg-white text-slate-800;
+}
+.font-ui {
+  font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+}
